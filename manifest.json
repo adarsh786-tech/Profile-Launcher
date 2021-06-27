@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Mihir Profile Launcher",
+    "description": "Quickly Launch all profiles of Mihir Adarsh",
+    "version": "1.0.0",
+    "icons": {"128": "icon_128.png"},
+    "browser_action": {
+        "default_action":"icon.png",
+        "default_popup" : "popup.html"
+    },
+    "permissions": ["activeTab"]
+}
